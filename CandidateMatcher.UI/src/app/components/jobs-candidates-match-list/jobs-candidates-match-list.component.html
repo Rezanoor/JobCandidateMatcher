@@ -1,0 +1,35 @@
+<div class="row" style="height:50px">
+
+</div>
+<div *blockUI="'jobs-candidates-match-list'" class="row" style="min-height: 200px; margin-left: 100px;">
+
+    <div class="col" >
+        <span><h6><b>Results:</b></h6></span>
+        <table class="job-candidate-table" >
+            <tr>
+                <th style="width=20px">Job Id</th>
+                <th >Job Name</th>
+                <th >Company</th>
+                <th >Skills</th>
+                <th >Candidate Id</th>
+                <th >Candidate Name</th>
+                <th >Candidate Skill Tag</th>
+            </tr>
+            <tr *ngFor="let jobCandiate of jobsCandidatesMatchList">
+                <td style="width=20px">{{jobCandiate.job.jobId}}</td>
+                <td>{{jobCandiate.job.name}}</td>
+                <td>{{jobCandiate.job.company}}</td>
+                <td>{{jobCandiate.job.skills}}</td>
+                <td>{{jobCandiate.candidate.candidateId}}</td>
+                <td>{{jobCandiate.candidate.name}}</td>
+                <td>{{jobCandiate.candidate.skillTags}}</td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+
+
+
+

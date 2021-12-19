@@ -1,0 +1,25 @@
+body {
+    font-size: .8rem;
+    font-family: Arial;
+}
+
+.width-180 {
+    width: 180px;
+}
+
+.width-30 {
+    width: 30px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-15 {
+    padding-top: 15px;
+}
+
+.padding-0 {
+    padding: 0;
+}
+

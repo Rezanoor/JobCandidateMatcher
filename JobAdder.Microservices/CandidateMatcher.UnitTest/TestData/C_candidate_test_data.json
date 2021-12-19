@@ -1,0 +1,22 @@
+[
+  {
+    "candidateId": 1,
+    "name": "C1",
+    "skillTags": "S1, S9, S10, S12, S2"
+  },
+  {
+    "candidateId": 2,
+    "name": "C2",
+    "skillTags": "S2, S3, S10, S11"
+  },
+  {
+    "candidateId": 3,
+    "name": "C3",
+    "skillTags": "S3, S4, S1, S19"
+  },
+  {
+    "candidateId": 4,
+    "name": "C4",
+    "skillTags": "S5, S6, S7"
+  }
+]
